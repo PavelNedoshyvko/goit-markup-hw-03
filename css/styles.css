@@ -1,0 +1,185 @@
+:root {
+  /* Colors */
+  --primary-brand-iris: #4d5ae5;
+  --pressed-state-ocean: #404bbf;
+  --dark-navy-blue: #2e2f42;
+  --success-green: #31d0aa;
+  --text-slate: #434455;
+  --subtle-text-light-slate: #8e8f99;
+  --accent-cornflower: #e7e9fc;
+  --light-cloud: #f4f4fd;
+  --modal-overlay-navy-blue-modal: #2e2f42;
+  --hero-background-grey: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background-dairy: #fcfcfc;
+}
+
+body {
+  background-color: var(--white-background);
+  color: var(--text-slate);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.image {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Index page */
+
+/* Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand-iris);
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--dark-navy-blue);
+}
+
+/* Site-nav */
+
+.site-nav .page {
+  font-weight: 500;
+  color: var(--dark-navy-blue);
+}
+
+.site-nav .page:hover,
+.site-nav .page:focus {
+  color: var(--pressed-state-ocean);
+}
+
+/* Address */
+
+.address {
+  font-style: normal;
+}
+
+.address .link {
+  color: var(--text-slate);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--pressed-state-ocean);
+}
+
+/* Hero */
+
+.section.hero {
+  background-color: var(--dark-navy-blue);
+}
+
+.section.hero .title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-background);
+}
+
+.hero .btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  background-color: var(--primary-brand-iris);
+}
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: var(--pressed-state-ocean);
+  cursor: pointer;
+}
+
+/* About us */
+
+.section .subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-navy-blue);
+}
+
+.section .text {
+  color: var(--text-slate);
+}
+
+/* What are we doing */
+
+.section .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-navy-blue);
+}
+
+/* Our team */
+
+.section.team {
+  background-color: var(--light-cloud);
+}
+
+.team .item {
+  background-color: var(--white-background);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--dark-navy-blue);
+}
+
+.footer .logo-studio,
+.footer .text {
+  color: var(--light-cloud);
+}
+
+/* Portfolio page */
+
+/* Filter */
+
+.gallery .btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-iris);
+  background-color: var(--light-cloud);
+  border: 1px solid var(--accent-cornflower);
+  border-radius: 4px;
+}
+
+.gallery .btn:hover,
+.gallery .btn:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state-ocean);
+  border-color: var(--pressed-state-ocean);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+/* Gallery */
